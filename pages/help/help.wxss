@@ -1,0 +1,11 @@
+.backGround{
+  position: absolute;
+  z-index: -1;
+  width: 754rpx; 
+  height: 1469rpx;
+}
+.content{
+  background-color: rgba(107, 100, 100, 0.493);
+  font-size: 50rpx;
+  font-family: LiSu;
+}

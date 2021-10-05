@@ -1,0 +1,14 @@
+<view >
+  <!-- 背景图片设置 -->
+  <image class="backGround" src='http://m.qpic.cn/psc?/V53b6AhA0HpGbV45Hl7U09DkVH0EnDXo/ruAMsa53pVQWN7FLK88i5nWTi3n7HWxAIelRYpv1RXmShjqMrHtSAWs1w3UDsp8374JGqIk441sFBY6.MTWcATnJVyMNB9Yu6LCygBsO1BA!/mnull&bo=kgLbAwAAAAADB2o!&rf=photolist&t=5' >
+  </image>
+  <!-- 背景图片设置 -->
+  <!-- 标题设置 -->
+  <text class="title" style="position: relative; left: 80rpx; top: 300rpx">BOBING</text>
+  <!-- 标题设置 -->
+  <!-- 按钮设置 -->
+  <button class="btn" plain="true" style="left: 197rpx; top: 735rpx;  width: 361rpx; height: 97rpx; " bindtap="goToStandalonePage" bindlongtap="goToStandalonePage">Standalone</button>
+  <button class="btn" plain="true" style="left: 66rpx; top: 903rpx; width: 610rpx; height: 169rpx;">Online
+  (underdevelopment)</button>
+  <!-- 按钮设置 -->
+</view>

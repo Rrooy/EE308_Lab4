@@ -1,0 +1,16 @@
+.backGround{
+  position: absolute;
+  z-index: -1;
+  width: 754rpx; 
+  height: 1469rpx;
+}
+.title{
+  font-size: 150rpx;
+  color: rgb(221, 221, 221);
+}
+.btn{
+  size:default;
+  font-size: 50rpx;
+  border-radius:20rpx;
+  position: fixed;
+}

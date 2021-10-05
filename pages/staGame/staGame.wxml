@@ -1,0 +1,22 @@
+<view>
+  <!-- 背景图片设置 -->
+  <image class="backGround" src='http://m.qpic.cn/psc?/V53b6AhA0HpGbV45Hl7U09DkVH0EnDXo/ruAMsa53pVQWN7FLK88i5nWTi3n7HWxAIelRYpv1RXmShjqMrHtSAWs1w3UDsp8374JGqIk441sFBY6.MTWcATnJVyMNB9Yu6LCygBsO1BA!/mnull&bo=kgLbAwAAAAADB2o!&rf=photolist&t=5'  style="position: absolute; left: -4rpx; top: 2rpx">
+  </image>
+  <!-- 背景图片设置 -->
+  <!-- 消息提示 -->
+  <view class='top'>{{txt}}</view>
+  <!-- 消息提示 -->
+  <!-- 骰子布局 -->
+  <view class='layout'>
+  <image src='{{one_img}}'></image>
+  <image src='{{two_img}}'></image>
+  <image src='{{three_img}}'></image>
+  <image src='{{four_img}}'></image>
+  <image src='{{five_img}}'></image>
+  <image src='{{six_img}}'></image>
+  </view>
+  <!-- 骰子布局 -->
+  <!-- 开始按钮 -->
+  <view class='btn' bindtap='enter'>{{msg}}</view>
+  <!-- 开始按钮 -->
+</view>
