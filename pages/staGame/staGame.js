@@ -11,6 +11,8 @@ Page({
     msg:'给我摇',
     text:'哈哈',
     txt:'恭喜你摇到了：',
+    palyedNum:'0',
+    people1:null,
     //图片的素材和效果图会发在最下面
     arrImage:[
       '../../image/1-point.png',
@@ -20,6 +22,12 @@ Page({
       '../../image/5-point.png',
       '../../image/6-point.png',
     ]
+  },
+  onLoad:function(options){
+    let obj=this
+    var that = this
+    that.setData({people:options.people1})
+    //console.log(obj.data.people)
   },
   enter:function(event){
     let obj = this;
@@ -35,7 +43,7 @@ Page({
         var text;
 
         // 数组排序
-        console.log(arr);
+        //console.log(arr);
         //遍历数组 统计点数个数
         var numOne=0,numTwo=0,numThree=0,numFour=0,numFive=0,numSix=0;
         for(var i = 0; i < arr.length; i++) {
@@ -102,11 +110,20 @@ Page({
     }else{
       clearInterval(obj.data.timer);
       obj.setData({
-           msg:'给我摇',
+           msg:'下一位给我摇',
            flag:true,
            txt:'恭喜你摇到了:'+obj.data.text,//输出结果
       })
     }
-  },
-  
+    obj.data.palyedNum++
+    console.log(obj.data.palyedNum/2)
+    if (obj.data.palyedNum/2==obj.data.people) {
+      obj.setData({msg:'游戏结束，返回主页面'})
+    }
+    if (obj.data.palyedNum/2-0.5==obj.data.people) {
+      clearInterval(obj.data.timer);
+      wx.navigateTo({url: '../index/index'})
+    }
+    console.log(obj.data.people)
+  }
 })

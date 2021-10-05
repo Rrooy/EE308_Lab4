@@ -13,10 +13,10 @@
 .layout image{
    margin-top: -20rpx;
    margin-left: 25rpx;
-   width: 150px;
-   height: 150px;
-   padding-left: 50rpx;
-   padding-top: 100rpx;
+   width: 100px;
+   height: 100px;
+   padding-left: 25px;
+   padding-top: 50px;
 }
 .btn{
   width:100%;

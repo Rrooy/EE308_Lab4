@@ -6,6 +6,6 @@
 }
 .content{
   background-color: rgba(107, 100, 100, 0.493);
-  font-size: 50rpx;
+  font-size: 80rpx;
   font-family: LiSu;
 }
