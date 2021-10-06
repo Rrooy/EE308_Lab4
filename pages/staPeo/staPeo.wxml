@@ -1,15 +1,15 @@
 <view >
   <!-- 背景图片设置 -->
-  <image class="backGround" src='http://m.qpic.cn/psc?/V53b6AhA0HpGbV45Hl7U09DkVH0EnDXo/ruAMsa53pVQWN7FLK88i5nWTi3n7HWxAIelRYpv1RXmShjqMrHtSAWs1w3UDsp8374JGqIk441sFBY6.MTWcATnJVyMNB9Yu6LCygBsO1BA!/mnull&bo=kgLbAwAAAAADB2o!&rf=photolist&t=5' >
+  <image class="backGround" src='http://m.qpic.cn/psc?/V53b6AhA0HpGbV45Hl7U09DkVH0EnDXo/45NBuzDIW489QBoVep5mcfSWVQSWHz67RLbig0dMCevN*eSvhYtxpP8QFqhcoUH7gzu1z3Qx2iv3qeqazIUITMgYbWv*oQiCpIqjpKV79QM!/b&bo=WAIqBAAAAAABF0Q!&rf=viewer_4' >
   </image>
   <!-- 背景图片设置 -->
   <!-- 标题设置 -->
   <text class="title" style="position: relative; left: 80rpx; top: 300rpx">BOBING</text>
   <!-- 标题设置 -->
   <!-- 人数选择 -->
-  <Select prop-array='{{selectArray}}' bind:myget='getDate' style="position: relative; left: 220rpx; top: 550rpx"></Select>
+  <Select prop-array='{{selectArray}}' bind:myget='getDate' style="position: relative; left: 200rpx; top: 450rpx"></Select>
   <!-- 人数选择 -->
   <!-- 按钮设置 -->
-  <button class="btn" plain="true" style="left: 239rpx; top: 880rpx; position: fixed" bindtap="goToGamePage">GO</button>
+  <button class="btn" plain="true" style="left: 220rpx; top: 880rpx; position: fixed" bindtap="goToGamePage">GO</button>
   <!-- 按钮设置 -->
 </view>

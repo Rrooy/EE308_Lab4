@@ -11,8 +11,8 @@ Page({
     msg:'给我摇',
     text:'哈哈',
     txt:'恭喜你摇到了：',
-    palyedNum:'0',
-    people1:null,
+    palyedNum:'0',//已经玩的玩过家数
+    people1:null,//一共设置的玩家数
     //图片的素材和效果图会发在最下面
     arrImage:[
       '../../image/1-point.png',
@@ -115,6 +115,7 @@ Page({
            txt:'恭喜你摇到了:'+obj.data.text,//输出结果
       })
     }
+    //判断玩家是否全部玩完，并退出
     obj.data.palyedNum++
     console.log(obj.data.palyedNum/2)
     if (obj.data.palyedNum/2==obj.data.people) {

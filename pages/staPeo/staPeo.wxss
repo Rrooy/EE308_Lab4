@@ -1,12 +1,13 @@
 .backGround{
   position: absolute;
   z-index: -1;
-  width: 754rpx; 
-  height: 1469rpx;
+  width: 770rpx; 
+  height: 1500rpx;
 }
 .title{
-  font-size: 150rpx;
-  color: rgb(221, 221, 221);
+  font-size: 160rpx;
+  color: 	#fca1af;
+  font-weight:300rpx;
 }
 .btn{
   size:default;

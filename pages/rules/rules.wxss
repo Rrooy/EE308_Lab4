@@ -2,6 +2,6 @@
 .backGround{
   position: absolute;
   z-index: -1;
-  width: 754rpx; 
-  height: 1469rpx;
+  width: 770rpx; 
+  height: 1500rpx;
 }
